@@ -146,6 +146,12 @@
     }
 }
 
+
+.footer {
+    padding: 60px 100px 60px 80px;
+
+}
+
 .footer__copyright {
     margin: 0;
 }
