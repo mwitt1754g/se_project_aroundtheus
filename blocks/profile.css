@@ -60,12 +60,23 @@
         flex-direction: column;
     }
 
+    .profile__title {
+        font-size: 22px;
+    }
+
     .profile__info {
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
+        align-items: center;
         width: 100%;
+        gap: 14px;
     
+    }
+
+    .profile__edit-button {
+        height: 18px;
+        width: 18px;
     }
 
     .profile__description{
