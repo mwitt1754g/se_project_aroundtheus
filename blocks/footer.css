@@ -1,5 +1,5 @@
 .footer {
-    padding: 60px 100px 60px 80px;
+    padding: 60px 100px 60px 0;
 
 }
 
@@ -9,3 +9,13 @@
     font-size: 18px;
    
 }
+
+
+@media screen and (max-width:320px) {
+    .footer {
+        padding: 45px 20px;
+    }    
+    .footer__copyright {
+        font-size: 14px;
+     }  
+} 

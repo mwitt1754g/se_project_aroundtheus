@@ -74,8 +74,28 @@
      margin-right: 24px;
  }
 
+ @media screen and (max-width: 320px) {
+    .profile__image {
+        margin-bottom: 20px;
+    }
+
+    .profile__title {
+        margin-bottom: -15px;
+    }
+
+    .profile__description {
+        margin-bottom: 30px;
+        font-size: 14px;
+        line-height: 16.94px;
+    }
+    
+ }
 
  @media screen and (max-width:636px){
+    .profile__image {
+        margin-right: unset;
+    }
+    
     .profile{
         flex-direction: column;
     }
